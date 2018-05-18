@@ -2,12 +2,12 @@
 *exch-rate* is a tool to fetch exchange rates and convert foreign currencies.
 
 # Installation
-To install hotspotd, just follow these steps:
+To install, just follow these steps:
 ```
 pip3 install exch-rate
 ```
 
-To uninstall hotspotd, just say:
+To uninstall, just say:
 
 ```pip3 uninstall exch-rate```
 
