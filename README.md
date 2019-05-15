@@ -4,11 +4,11 @@
 # Installation
 To install, just follow these steps:
 ```
-pip3 install exch-rate
+pip install exch-rate
 ```
 
 To uninstall, just say:
-```pip3 uninstall exch-rate```
+```pip uninstall exch-rate```
 
 # Usage
 ```exchrate usd inr```
