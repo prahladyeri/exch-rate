@@ -1,4 +1,9 @@
-#!/usr/bin/env python3
+##
+# exch-rate is a simple tool to fetch currency exchange rates and convert them.
+#
+# @author Prahlad Yeri<prahladyeri@yahoo.com>
+# @license MIT
+#
 import requests
 import json
 import argparse
@@ -11,7 +16,7 @@ def main():
 	parser.add_argument("to", help="To currency")
 	args = parser.parse_args()
 	#
-	url = "https://free.currencyconverterapi.com/api/v5/convert?q=%s_%s&compact=y"
+	url = "https://free.currencyconverterapi.com/api/v5/convert?q=%s_%s&compact=y&apiKey=d08e67b83d5caf3c3887"
 	#fmcurr, tocurr = "BTC", "usd"
 	fmcurr, tocurr = getattr(args, 'from'), args.to
 	url = url % (fmcurr, tocurr)
